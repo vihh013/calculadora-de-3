@@ -1,17 +1,43 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
-    <script src="components/loader.js"></script>
-    <link rel="stylesheet" href="components/loader.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script>
-    </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-	<br />
-    This is a template for Monaca app.
+
+  <div class="container" center>
+
+
+
+    <input type="number" id="1Vl" placeholder="1° Valor">
+    <input type="number" id="2Vl" placeholder="2° Valor">
+    <input type="number" id="3Vl" placeholder="3° Valor">
+
+    <input type="button" id="btnCalcular" value="Calcular" ondblclick="calcularregrade3()">
+
+    <input type="number" id="resultado" placeholder="Resultado">
+
+    <center>
+      <span> Histórico: </span>
+      <h1 id="hist01"> </h1>
+      <h1 id="hist02"> </h1>
+      <h1 id="hist03"> </h1>
+      <h1 id="hist04"> </h1>
+      <h1 id="hist05"> </h1>
+    </center>
+
+   
+  </div>
+
+  <script src="./maim.js"></script>
+
 </body>
+
 </html>
